@@ -20,7 +20,7 @@ export class Map {
   /**
    *Creates an instance of Map.
    * @param {(String | HTMLDivElement)} container 构造一个地图对象，参数container中传入地图容器DIV的ID值或者DIV对象
-   * @param {MapOptions} opts opts地图初始化参数对象，参数详情参看MapOptions列表。
+   * @param {(Object | MapOptions)} opts opts地图初始化参数对象，参数详情参看MapOptions列表。
    * @memberof Map
    */
   constructor(

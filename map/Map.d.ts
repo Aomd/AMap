@@ -10,6 +10,36 @@ import { Size } from '../Size'
 
 import { Pixel } from '../Pixel'
 
+// 字符串字面量类型
+
+type EventNames = 
+'complete' | 
+'click' | 
+'dblclick'|
+'mapmove'|
+'hotspotclick'|
+'hotspotover'|
+'hotspotout'|
+'movestart'|
+'moveend'|
+'zoomchange'|
+'zoomstart'|
+'zoomend'|
+'mousemove'|
+'mousewheel'|
+'mouseover'|
+'mouseout'|
+'mouseup'|
+'mousedown'|
+'rightclick'|
+'dragstart'|
+'dragging'|
+'dragend'|
+'resize'|
+'touchstart'|
+'touchmove'|
+'touchend';
+
 /**
  *
  *地图对象类，封装了地图的属性设置、图层变更、事件交互等接口的类。[相关示例](https://lbs.amap.com/api/javascript-api/example/map-lifecycle/map-show)
@@ -20,7 +50,7 @@ export class Map {
   /**
    *Creates an instance of Map.
    * @param {(String | HTMLDivElement)} container 构造一个地图对象，参数container中传入地图容器DIV的ID值或者DIV对象
-   * @param {(Object | MapOptions)} opts opts地图初始化参数对象，参数详情参看MapOptions列表。
+   * @param {MapOptions} opts opts地图初始化参数对象，参数详情参看MapOptions列表。
    * @memberof Map
    */
   constructor(
@@ -525,5 +555,16 @@ export class Map {
    * @memberof Map
    */
   getPitch(): Number
+
+
+ 
+  /**
+   * map事件监听
+   *
+   * @param {EventNames} event
+   * @param {(Function|Event|Object)} cb
+   * @memberof Map
+   */
+  on(event: EventNames ,cb:Function)
 
 }

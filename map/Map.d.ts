@@ -12,7 +12,7 @@ import { Pixel } from '../Pixel'
 
 // 字符串字面量类型
 
-type EventNames = 
+type MapEventNames = 
 'complete' | 
 'click' | 
 'dblclick'|
@@ -565,6 +565,6 @@ export class Map {
    * @param {(Function|Event|Object)} cb
    * @memberof Map
    */
-  on(event: EventNames ,cb:Function)
+  on(event: MapEventNames ,cb:Function)
 
 }

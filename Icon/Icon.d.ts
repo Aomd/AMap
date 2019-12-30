@@ -1,18 +1,19 @@
 import { IconOptions } from "./IconOptions";
+import { Size } from "../Size";
 
 
-export class Icon{
+export class Icon {
+
 
 
   /**
-   * Creates an instance of Icon.
-   * 表示点标记的图标
-   * @param {IconOptions} opt
+   *Creates an instance of Icon.
+   * @param {(Object | IconOptions)} opt
    * @memberof Icon
    */
-  constructor(opt:IconOptions)
+  constructor(opt: Object | IconOptions)
 
-  
+
 
   /**
    * 获取图标图片大小
@@ -20,7 +21,7 @@ export class Icon{
    * @returns {Size}
    * @memberof IconOptions
    */
-  getImageSize():Size
+  getImageSize(): Size
 
   /**
    * 设置图标图片大小
@@ -28,5 +29,5 @@ export class Icon{
    * @param {Size} size
    * @memberof IconOptions
    */
-  setImageSize(size:Size)
+  setImageSize(size: Size)
 }

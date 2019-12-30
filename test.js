@@ -6,3 +6,6 @@ var map = new AMap.Map('',{
   zoom:1
 })
 
+map.on("click",function(){
+  
+})

@@ -8,14 +8,14 @@ import { Pixel } from './Pixel'
  */
 export class Size {
 
+  
   /**
-   * Creates an instance of Size.
-   * 构造一个像素坐标对象。
-   * @param {Number} x
-   * @param {Number} y
+   *Creates an instance of Size.
+   * @param {Number} width
+   * @param {Number} height
    * @memberof Size
    */
-  constructor(x: Number, y: Number)
+  constructor(width:Number,height:Number)
 
 
   /**

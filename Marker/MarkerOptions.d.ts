@@ -1,4 +1,4 @@
-import { Map } from "../map/Map";
+import { Map } from "../Map/Map";
 import { LngLat } from "../LngLat";
 import { Pixel } from "../Pixel";
 import { Icon } from "../Icon/Icon";

@@ -1,7 +1,7 @@
 import { ElasticMarkerOptions } from "./ElasticMarkerOptions";
 import { LngLat } from "../LngLat";
 
-import { Map } from '../map/Map'
+import { Map } from '../Map/Map'
 
 
 

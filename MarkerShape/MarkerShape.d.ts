@@ -1,4 +1,4 @@
-import {MarkerShapeOptions} from './MarkerShapeOptions'
+import { MarkerShapeOptions } from './MarkerShapeOptions'
 
 
 /**
@@ -7,7 +7,7 @@ import {MarkerShapeOptions} from './MarkerShapeOptions'
  * @export
  * @class MarkerShape
  */
-export class MarkerShape{
+export class MarkerShape {
 
   /**
    *Creates an instance of MarkerShape.
@@ -15,6 +15,6 @@ export class MarkerShape{
    * @memberof MarkerShape
    */
   constructor(
-    opt:Object|MarkerShapeOptions
+    opt: Object | MarkerShapeOptions
   )
 }

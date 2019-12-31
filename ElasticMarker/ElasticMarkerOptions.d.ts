@@ -1,4 +1,4 @@
-import { Map } from "../map/Map";
+import { Map } from "../Map/Map";
 import { LngLat } from "../LngLat";
 /**
  * 构造一个灵活点标记对象，通过ElasticMarkerOptions设置点标记对象的属性

@@ -1,8 +1,8 @@
 import { LngLat } from '../LngLat';
 
-import { TileLayer } from '../TileLayer'
+import { TileLayer } from '../TileLayer/TileLayer'
 
-import { IndoorMap } from '../indoorMap/IndoorMap'
+import { IndoorMap } from '../IndoorMap/IndoorMap'
 
 
 /**

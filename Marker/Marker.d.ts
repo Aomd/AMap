@@ -1,7 +1,7 @@
 import { Pixel } from "../Pixel";
 import { LngLat } from "../LngLat";
 import { Icon } from "../Icon/Icon";
-import { Map } from "../map/Map";
+import { Map } from "../Map/Map";
 
 import { MarkerOptions } from './MarkerOptions'
 import { MarkerShape } from "../MarkerShape/MarkerShape";

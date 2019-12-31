@@ -2,5 +2,5 @@
     "compilerOptions":{
         "sourceMap": true
     },
-    "files": ["hello.ts"]
+    "files": ["AMap.d.ts"]
 }

@@ -18,6 +18,8 @@ export * from './StyleObject';
 
 export * from './Util';
 
+export * from './plugin';
+
 export * from './AdvancedInfoWindow/AdvancedInfoWindow'
 export * from './ArrivalRange/ArrivalRange'
 export * from './Autocomplete/Autocomplete'

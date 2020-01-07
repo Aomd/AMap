@@ -1,5 +1,5 @@
 import { LngLat } from "../LngLat";
-import {ArrivalRangeOptions} from './ArrivalRangeOptions';
+import { ArrivalRangeOptions } from './ArrivalRangeOptions';
 
 
 /**
@@ -8,7 +8,7 @@ import {ArrivalRangeOptions} from './ArrivalRangeOptions';
  * @export
  * @class ArrivalRange
  */
-export class ArrivalRange{
+export class ArrivalRange {
 
   /**
    * 计算某个时间段内用户通过公交出行可到达的距离范围
@@ -19,5 +19,5 @@ export class ArrivalRange{
    * @param {ArrivalRangeOptions} opts
    * @memberof ArrivalRange
    */
-  search(origin:LngLat,time:Number,callback:Function,opts:ArrivalRangeOptions)
+  search(origin: LngLat, time: Number, callback: (a: String) => void, opts: ArrivalRangeOptions)
 }

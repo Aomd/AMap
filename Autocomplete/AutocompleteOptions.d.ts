@@ -1,5 +1,5 @@
 
-export class AutocompleteOptions{
+export class AutocompleteOptions {
 
 
   /**
@@ -14,18 +14,18 @@ export class AutocompleteOptions{
    * @memberof AutocompleteOptions
    */
   constructor(
-    datatype:String,
+    datatype: String,
 
-    input:String|HTMLInputElement,
+    input: String | HTMLInputElement,
 
-    output:String|HTMLDivElement,
+    output: String | HTMLDivElement,
 
-    citylimit?:Boolean,
+    citylimit?: Boolean,
 
-    type?:String,
-    
-    city?:String,
+    type?: String,
 
-    outPutDirAuto?:Boolean
+    city?: String,
+
+    outPutDirAuto?: Boolean
   )
 }

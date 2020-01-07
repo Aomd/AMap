@@ -1,10 +1,12 @@
 import { AutocompleteOptions } from './AutocompleteOptions';
 
-type AutocompleteEventNames = 
-'complete'|
-'error'|
-'select'|
-'choose';
+import { AutocompleteResult } from './AutocompleteResult';
+
+type AutocompleteEventNames =
+    'complete' |
+    'error' |
+    'select' |
+    'choose';
 
 /**
  * 根据输入关键字提示匹配信息
@@ -35,7 +37,7 @@ export class Autocomplete {
      * @param {Function} callback
      * @memberof Autocomplete
      */
-    search(keyword: String, callback: Function)
+    search(keyword: String, callback: (status: String, result: String | AutocompleteResult) => void)
 
 
     /**
@@ -66,5 +68,5 @@ export class Autocomplete {
      */
     setCityLimit(Boolean)
 
-    on(event: AutocompleteEventNames ,cb:Function)
+    on(event: AutocompleteEventNames, cb: Function)
 }

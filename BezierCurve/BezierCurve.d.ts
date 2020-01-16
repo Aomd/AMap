@@ -4,6 +4,20 @@ import { PolylineOptions } from '../Polyline/PolylineOptions';
 import { Bounds } from '../Bounds';
 import { Map } from '../Map/Map';
 
+type BezierCurveEventNames =
+  'click' |
+  'dblclick' |
+  'rightclick' |
+  'hide' |
+  'show' |
+  'mousedown' |
+  'mouseup' |
+  'mouseover' |
+  'mouseout' |
+  'change' |
+  'touchstart' |
+  'touchend';
+
 
 /**
  * 贝瑟尔曲线类
@@ -112,4 +126,6 @@ export class BezierCurve {
    * @memberof BezierCurve
    */
   getExtData(): any
+
+  on(event: BezierCurveEventNames, cb: Function) 
 }

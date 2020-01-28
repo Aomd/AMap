@@ -7,7 +7,7 @@ import { Map } from '../Map/Map'
 
 
 
-type EventNames =
+type ElasticMarkerEventNames =
   'click' |
   'dblclick' |
   'rightclick' |
@@ -34,13 +34,14 @@ type EventNames =
  */
 export class ElasticMarker {
 
+
   /**
    *Creates an instance of ElasticMarker.
-   * @param {ElasticMarkerOptions} pt
+   * @param {(ElasticMarkerOptions|Object)} pt
    * @memberof ElasticMarker
    */
   constructor(
-    pt: ElasticMarkerOptions
+    pt: ElasticMarkerOptions|Object
   )
 
 
@@ -236,5 +237,5 @@ export class ElasticMarker {
      * @param {(Function|Event|Object)} cb
      * @memberof Map
      */
-  on(event: EventNames, cb: Function)
+  on(event: ElasticMarkerEventNames, cb: Function)
 }

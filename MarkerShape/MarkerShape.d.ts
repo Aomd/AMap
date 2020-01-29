@@ -2,7 +2,7 @@ import { MarkerShapeOptions } from './MarkerShapeOptions'
 
 
 /**
- *
+ * MarkerShape用于划定Marker的可点击区域范围
  *
  * @export
  * @class MarkerShape

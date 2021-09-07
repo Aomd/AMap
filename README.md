@@ -9,3 +9,28 @@ npm i aomd-amap
 move "./node_modules/aomd-amap" "./node_modules/@types/aomd-amap"
 
 ```
+
+# or
+
+``` json
+// jsconfig.json
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonJS",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src/**/*",
+    "node_modules/@types/**/*",
+    "node_modules/aomd-amap/**/*",
+  ],
+  "path": {
+    "@/*": ["./src/*"]
+  }
+}
+```
